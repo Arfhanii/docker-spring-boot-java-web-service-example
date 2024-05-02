@@ -11,8 +11,8 @@ WORKDIR /app
 # Copy the fat jar into the container at /app
 COPY /target/docker-java-app-example.jar /app
 
-# Make port 8081 available to the world outside this container
-EXPOSE 8081
+# Make port 8082 available to the world outside this container
+EXPOSE 8082
 
 # Run jar file when the container launches
 CMD ["java", "-jar", "docker-java-app-example.jar"]
